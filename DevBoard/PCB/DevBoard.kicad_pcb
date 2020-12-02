@@ -755,6 +755,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model "${KISYS3DMOD}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x04_P2.54mm_Vertical.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 -90))
+    )
   )
 
   (module "Caps_SMD:0402" (layer "F.Cu") (tedit 5F917FC3) (tstamp 00000000-0000-0000-0000-00005f8f639b)
@@ -1408,7 +1413,7 @@
       (effects (font (size 0.127 0.127) (thickness 0.000001)))
       (tstamp 6a48b72c-004e-4357-9466-8dc6478bf049)
     )
-    (fp_text value "GPIO" (at 6.33984 2.64668 -90) (layer "F.SilkS")
+    (fp_text value "GPIO" (at 8.9789 2.6035 90) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 4c8ed42f-5433-419a-9b56-e702bd3ebc09)
     )
@@ -1434,6 +1439,11 @@
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
+    )
+    (model "${KISYS3DMOD}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x08_P2.54mm_Vertical.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 -90))
     )
   )
 
@@ -1551,10 +1561,15 @@
       (net 37 "SPI2_MOSI") (tstamp 87ff0f15-f218-4e9f-b20e-aa38935c92c0))
     (pad "5" thru_hole oval (at 10.16 0 90) (size 1.5 2.54) (drill 1) (layers *.Cu *.Mask)
       (net 2 "GND") (tstamp a58c5f1d-a35e-46fb-a505-3c96ea5bd538))
-    (model "${KISYS3DMOD}/Connectors_Molex.3dshapes/Molex_KK-6410-05_05x2.54mm_Straight.wrl"
+    (model "${KISYS3DMOD}/Connectors_Molex.3dshapes/Molex_KK-6410-05_05x2.54mm_Straight.wrl" hide
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
+    )
+    (model "${KISYS3DMOD}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x05_P2.54mm_Vertical.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 -90))
     )
   )
 
@@ -1622,6 +1637,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model "${KISYS3DMOD}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x03_P2.54mm_Vertical.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 -90))
+    )
   )
 
   (module "Conn_2.54:Conn_01x03_2.54mm_Straight" (layer "F.Cu") (tedit 5F919696) (tstamp 00000000-0000-0000-0000-00005f9a1e01)
@@ -1684,6 +1704,11 @@
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
+    )
+    (model "${KISYS3DMOD}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x03_P2.54mm_Vertical.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 -90))
     )
   )
 
