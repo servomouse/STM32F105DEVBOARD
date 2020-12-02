@@ -1,0 +1,25 @@
+A00 - WKUP
+------------------------
+A04 - SPI1_NSS/DAC1
+A05 - SPI1_SCK_DAC2
+A06 - SPI1_MISO
+A07 - SPI1_MOSI
+------------------------
+A13 - SWDIO
+A14 - SWCLK
+------------------------
+B0 - ADC12_IN8
+B1 - ADC12_IN9
+C4 - ADC12_IN14
+C5 - ADC12_IN15
+------------------------
+B10 - USART3_TX/I2C2_SCL
+B11 - USART3_RX/I2C2_SDA
+------------------------
+B12 - SPI2_NSS
+B13 - SPI2_SCK
+B14 - SPI2_MISO
+B15 - SPI2_MOSI
+------------------------
+C10 - UART4_TX
+C11 - UART4_RX
